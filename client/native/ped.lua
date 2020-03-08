@@ -12,7 +12,7 @@
 -- @param isNetwork BOOL
 -- @param p7 BOOL
 -- @return Ped
-function CreatePed(pedType, modelHash, x, y, z, heading, isNetwork, p7) end
+function CreatePed(pedType, modelHashdfgdfg, x, y, z, heading, isNetwork, p7) end
 
 -- Deletes the specified ped, then sets the handle pointed to by the pointer to NULL.
 -- @module native
@@ -35,7 +35,7 @@ function DeletePed(ped) end
 -- @return Ped
 function ClonePed(ped, heading, isNetwork, p3) end
 
--- What exactly is the difference? What does this exactly do by chance?
+-- What exactly is the differendfgce? What does this exactly do by chance?
 -- @module native
 -- @submodule ped
 -- @see CLONE_PED_TO_TARGET
